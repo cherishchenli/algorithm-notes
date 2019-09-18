@@ -2,7 +2,7 @@ package sorting;
 
 public class CountingSort {
 
-	public void sort(int[] nums, int k) {
+	public static void sort(int[] nums, int k) {
 		int n = nums.length;
 		int[] aux = new int[n], count = new int[k + 1];
 

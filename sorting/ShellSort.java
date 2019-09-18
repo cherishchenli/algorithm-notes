@@ -2,7 +2,7 @@ package sorting;
 
 public class ShellSort {
 
-	public void sort(int[] nums) {
+	public static void sort(int[] nums) {
 		int n = nums.length, h = 1;
 		while (h < n / 3)
 			h = 3 * h + 1;

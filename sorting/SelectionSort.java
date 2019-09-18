@@ -2,7 +2,7 @@ package sorting;
 
 public class SelectionSort {
 
-	public void sort(int[] nums) {
+	public static void sort(int[] nums) {
 		int n = nums.length;
 		for (int i = 0; i < n; i++) {
 			int min = i;
